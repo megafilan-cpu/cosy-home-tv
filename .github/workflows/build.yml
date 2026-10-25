@@ -16,7 +16,7 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '17'
-        cache: 'gradle' # Mengaktifkan cache otomatis untuk mempersingkat waktu build
+        cache: 'gradle'
 
     - name: Berikan Izin Eksekusi Gradle Wrapper
       run: |
